@@ -1,20 +1,21 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { Link, Redirect,useHistory } from "react-router-dom";
+import { Link, Redirect, useHistory } from "react-router-dom";
 import "../App.css";
 
 export default function Movies() {
 	const [details, setDetails] = useState([]);
-    const [book, setBook] = useState([]);
-    const [state, setState] = useState(false);
+	const [book, setBook] = useState([]);
+	const [state, setState] = useState(false);
 
 	console.log("book", book);
 	useEffect(() => {
 		getData();
-    }, []);
-    const handleState = () => {
-        setState(true);
-    }
+	}, []);
+	const handleState = () => {
+		setState(true);
+	};
+	
 
 	const style = {
 		display: "flex",
@@ -36,20 +37,25 @@ export default function Movies() {
 	const getData = async () => {
 		try {
 			const movies = await axios
-				.get("http://localhost:3003/movies")
-				.then((d) => setDetails(d.data)); //setDetails(d.data)
+				.get("http://localhost:2345/users")
+				.then((d) => setDetails(d.data.movies) )//setDetails(d.data)
 		} catch (error) {
-			console.log("error:", error);
+			console.log("error:", error)
 		}
 	};
 	// console.log(details);
+
+
+	// console.log(details);
+	// console.log('details:', details)
 	return (
 		// <div>
 		//     <h1>Movies</h1>
-		//     {details.map((e) => {
+		//     {/* {details.map((e) => {
 		//         div
-		//     })}
+		//     })} */}
 		// </div>
+
 		<>
 			{book.length === 0 ? (
 				<div></div>
@@ -71,21 +77,20 @@ export default function Movies() {
 				return (
 					<div key={e.id} style={style}>
 						<h5>
-                            <Link to={`/movies/${e.id}`}>{e.name}</Link>
-							
-                            {state?<Redirect to="/qr"/>:""}
+							<Link to={`/movies/${e.id}`}>{e.name}</Link>
+
+							{state ? <Redirect to="/qr" /> : ""}
 							<> </>
 							{e.id === book.id ? (
 								<button
-                                    onClick={handleState}
+									onClick={handleState}
 									// onClick={() => {
 									//     {console.log("take")}
 									// 	<Redirect to="/"/>;
 									// }}
 								>
 									Download Ticket
-                                </button>
-                                
+								</button>
 							) : (
 								<button
 									onClick={() => {
@@ -101,7 +106,7 @@ export default function Movies() {
 						</h5>
 						<p>{e.time}</p>
 					</div>
-				);
+				)
 			})}
 			;
 		</>

@@ -5,7 +5,7 @@ export default function MoviesDetails() {
     const { id } = useParams();
     const [details, setDetails] = useState([]);
 	useEffect(() => {
-		fetch(`http://localhost:3003/movies/${id}`)
+		fetch(`http://localhost:2345/users/${id}`)
 			.then((x) => x.json())
 			.then((d) => setDetails(d));
     }, []);

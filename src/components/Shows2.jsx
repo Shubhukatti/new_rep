@@ -30,13 +30,14 @@ export default function Shows2() {
 	const getData = async () => {
 		try {
 			const movies = await axios
-				.get("http://localhost:3003/movies")
-				.then((d) => setDetails(d)); //setDetails(d.data)
+				.get("http://localhost:2345/users")
+				.then((d) => setDetails(d.data.movies)); //setDetails(d.data)
 		} catch (error) {
 			console.log("error:", error);
 		}
 	};
-	console.log(details);
+	//  setDetails(d)
+	// console.log(details);
 	return (
 		// <div>
 		//     <h1>Movies</h1>

@@ -1,24 +1,304 @@
 {
-  "movies": [
-    {
-      "title": "inception",
-      "id": 1,
-      "description":"awesome movie"
-    },
-    {
-      "title": "inception2",
-      "id": 2,
-      "description":"awesome movie"
-    },
-    {
-      "title": "inception3",
-      "id": 3,
-      "description":"awesome movie"
-    },
-    {
-      "title": "inception4",
-      "id": 4,
-      "description":"awesome movie"
-    }
-  ]
+    "movies": [
+        {
+            "id": 1,
+            "name": "Hunger",
+            "url": "http://dummyimage.com/206x100.png/5fa2dd/ffffff",
+            "genre": "Drama"
+        },
+        {
+            "id": 2,
+            "name": "Superclásico",
+            "url": "http://dummyimage.com/151x100.png/dddddd/000000",
+            "genre": "Comedy|Drama"
+        },
+        {
+            "id": 3,
+            "name": "Ladies They Talk About",
+            "url": "http://dummyimage.com/158x100.png/5fa2dd/ffffff",
+            "genre": "Drama|Romance"
+        },
+        {
+            "id": 4,
+            "name": "Hoffman",
+            "url": "http://dummyimage.com/202x100.png/5fa2dd/ffffff",
+            "genre": "Comedy|Drama|Romance"
+        },
+        {
+            "id": 5,
+            "name": "Balkan Spy (Balkanski spijun)",
+            "url": "http://dummyimage.com/237x100.png/5fa2dd/ffffff",
+            "genre": "Comedy|Drama"
+        },
+        {
+            "id": 6,
+            "name": "Hana and Alice (Hana to Arisu)",
+            "url": "http://dummyimage.com/228x100.png/ff4444/ffffff",
+            "genre": "Comedy|Drama"
+        },
+        {
+            "id": 7,
+            "name": "High Cost of Living, The",
+            "url": "http://dummyimage.com/121x100.png/cc0000/ffffff",
+            "genre": "Drama"
+        },
+        {
+            "id": 8,
+            "name": "Explorers",
+            "url": "http://dummyimage.com/152x100.png/cc0000/ffffff",
+            "genre": "Adventure|Children|Sci-Fi"
+        },
+        {
+            "id": 9,
+            "name": "Kogel mogel",
+            "url": "http://dummyimage.com/153x100.png/5fa2dd/ffffff",
+            "genre": "Comedy"
+        },
+        {
+            "id": 10,
+            "name": "Ping Pong Playa",
+            "url": "http://dummyimage.com/142x100.png/dddddd/000000",
+            "genre": "Comedy"
+        },
+        {
+            "id": 11,
+            "name": "Passage to Marseille",
+            "url": "http://dummyimage.com/123x100.png/ff4444/ffffff",
+            "genre": "Adventure|Drama|War"
+        },
+        {
+            "id": 12,
+            "name": "Air Bud",
+            "url": "http://dummyimage.com/107x100.png/dddddd/000000",
+            "genre": "Children|Comedy"
+        },
+        {
+            "id": 13,
+            "name": "Romper Stomper",
+            "url": "http://dummyimage.com/184x100.png/ff4444/ffffff",
+            "genre": "Action|Drama"
+        },
+        {
+            "id": 14,
+            "name": "Anne Frank Remembered",
+            "url": "http://dummyimage.com/211x100.png/dddddd/000000",
+            "genre": "Documentary"
+        },
+        {
+            "id": 15,
+            "name": "Nude Bomb, The",
+            "url": "http://dummyimage.com/138x100.png/5fa2dd/ffffff",
+            "genre": "Comedy"
+        },
+        {
+            "id": 16,
+            "name": "Pont du Nord, Le",
+            "url": "http://dummyimage.com/114x100.png/5fa2dd/ffffff",
+            "genre": "Comedy|Fantasy|Mystery"
+        },
+        {
+            "id": 17,
+            "name": "Real McCoy, The",
+            "url": "http://dummyimage.com/123x100.png/ff4444/ffffff",
+            "genre": "Drama"
+        },
+        {
+            "id": 18,
+            "name": "Calendar Girls",
+            "url": "http://dummyimage.com/238x100.png/dddddd/000000",
+            "genre": "Comedy"
+        },
+        {
+            "id": 19,
+            "name": "Man, The",
+            "url": "http://dummyimage.com/120x100.png/cc0000/ffffff",
+            "genre": "Drama"
+        },
+        {
+            "id": 20,
+            "name": "Broadway Serenade",
+            "url": "http://dummyimage.com/174x100.png/5fa2dd/ffffff",
+            "genre": "Drama|Musical|Romance"
+        },
+        {
+            "id": 21,
+            "name": "Rendezvous",
+            "url": "http://dummyimage.com/240x100.png/ff4444/ffffff",
+            "genre": "Comedy|War"
+        },
+        {
+            "id": 22,
+            "name": "Fearless Hyena II (Long teng hu yue)",
+            "url": "http://dummyimage.com/147x100.png/5fa2dd/ffffff",
+            "genre": "Action"
+        },
+        {
+            "id": 23,
+            "name": "Pahat pojat",
+            "url": "http://dummyimage.com/197x100.png/cc0000/ffffff",
+            "genre": "Action|Crime|Drama"
+        },
+        {
+            "id": 24,
+            "name": "Klitschko",
+            "url": "http://dummyimage.com/132x100.png/ff4444/ffffff",
+            "genre": "Documentary"
+        },
+        {
+            "id": 25,
+            "name": "Con Air",
+            "url": "http://dummyimage.com/234x100.png/5fa2dd/ffffff",
+            "genre": "Action|Adventure|Thriller"
+        },
+        {
+            "id": 26,
+            "name": "The Legend of Awesomest Maximus",
+            "url": "http://dummyimage.com/131x100.png/ff4444/ffffff",
+            "genre": "Action|Comedy"
+        },
+        {
+            "id": 27,
+            "name": "Quiet Ones, The",
+            "url": "http://dummyimage.com/240x100.png/ff4444/ffffff",
+            "genre": "Horror"
+        },
+        {
+            "id": 28,
+            "name": "Stockholm, Pennsylvania",
+            "url": "http://dummyimage.com/151x100.png/5fa2dd/ffffff",
+            "genre": "Drama|Thriller"
+        },
+        {
+            "id": 29,
+            "name": "Mahjong (Ma jiang)",
+            "url": "http://dummyimage.com/238x100.png/dddddd/000000",
+            "genre": "Comedy|Drama"
+        },
+        {
+            "id": 30,
+            "name": "No Direction Home: Bob Dylan",
+            "url": "http://dummyimage.com/191x100.png/cc0000/ffffff",
+            "genre": "Documentary"
+        },
+        {
+            "id": 31,
+            "name": "Hero Wanted",
+            "url": "http://dummyimage.com/151x100.png/ff4444/ffffff",
+            "genre": "Action|Crime|Drama|Thriller"
+        },
+        {
+            "id": 32,
+            "name": "Wild Bees, The (Divoké vcely)",
+            "url": "http://dummyimage.com/122x100.png/dddddd/000000",
+            "genre": "Comedy|Drama"
+        },
+        {
+            "id": 33,
+            "name": "Triad Election (Election 2) (Hak se wui yi wo wai kwai)",
+            "url": "http://dummyimage.com/180x100.png/cc0000/ffffff",
+            "genre": "Crime|Drama|Thriller"
+        },
+        {
+            "id": 34,
+            "name": "Four-Faced Liar, The",
+            "url": "http://dummyimage.com/127x100.png/ff4444/ffffff",
+            "genre": "Comedy|Drama|Romance"
+        },
+        {
+            "id": 35,
+            "name": "Commune",
+            "url": "http://dummyimage.com/109x100.png/ff4444/ffffff",
+            "genre": "Documentary"
+        },
+        {
+            "id": 36,
+            "name": "Interview, The",
+            "url": "http://dummyimage.com/100x100.png/dddddd/000000",
+            "genre": "Crime|Drama|Mystery|Thriller"
+        },
+        {
+            "id": 37,
+            "name": "Blind Justice (Hævnens nat)",
+            "url": "http://dummyimage.com/182x100.png/5fa2dd/ffffff",
+            "genre": "Drama|Mystery|Thriller"
+        },
+        {
+            "id": 38,
+            "name": "Hotel Transylvania",
+            "url": "http://dummyimage.com/107x100.png/5fa2dd/ffffff",
+            "genre": "Animation|Children|Comedy"
+        },
+        {
+            "id": 39,
+            "name": "Mercy",
+            "url": "http://dummyimage.com/214x100.png/cc0000/ffffff",
+            "genre": "Crime|Mystery|Thriller"
+        },
+        {
+            "id": 40,
+            "name": "Cradle of Fear",
+            "url": "http://dummyimage.com/203x100.png/ff4444/ffffff",
+            "genre": "Crime|Drama|Horror|Mystery|Thriller"
+        },
+        {
+            "id": 41,
+            "name": "Arnold",
+            "url": "http://dummyimage.com/164x100.png/5fa2dd/ffffff",
+            "genre": "Comedy|Horror"
+        },
+        {
+            "id": 42,
+            "name": "My Giant",
+            "url": "http://dummyimage.com/124x100.png/5fa2dd/ffffff",
+            "genre": "Comedy"
+        },
+        {
+            "id": 43,
+            "name": "Colpo in canna",
+            "url": "http://dummyimage.com/188x100.png/cc0000/ffffff",
+            "genre": "Action"
+        },
+        {
+            "id": 44,
+            "name": "Megamind",
+            "url": "http://dummyimage.com/173x100.png/5fa2dd/ffffff",
+            "genre": "Action|Animation|Children|Comedy|Sci-Fi|IMAX"
+        },
+        {
+            "id": 45,
+            "name": "Super Bitch",
+            "url": "http://dummyimage.com/178x100.png/ff4444/ffffff",
+            "genre": "Action"
+        },
+        {
+            "id": 46,
+            "name": "Grind",
+            "url": "http://dummyimage.com/152x100.png/cc0000/ffffff",
+            "genre": "Action|Comedy"
+        },
+        {
+            "id": 47,
+            "name": "Far Out Man",
+            "url": "http://dummyimage.com/148x100.png/ff4444/ffffff",
+            "genre": "Comedy"
+        },
+        {
+            "id": 48,
+            "name": "Misadventures of Margaret, The",
+            "url": "http://dummyimage.com/131x100.png/ff4444/ffffff",
+            "genre": "Comedy|Romance"
+        },
+        {
+            "id": 49,
+            "name": "Neon Genesis Evangelion: Death & Rebirth (Shin seiki Evangelion Gekijô-ban: Shito shinsei)",
+            "url": "http://dummyimage.com/212x100.png/5fa2dd/ffffff",
+            "genre": "Action|Animation|Mystery|Sci-Fi"
+        },
+        {
+            "id": 50,
+            "name": "Live Flesh (Carne trémula)",
+            "url": "http://dummyimage.com/206x100.png/ff4444/ffffff",
+            "genre": "Drama|Romance"
+        }
+    ]
 }
